@@ -1,0 +1,17 @@
+{
+  "name": "run-lighthouse",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "path": "^0.12.7",
+    "puppeteer": "^24.4.0"
+  }
+}
